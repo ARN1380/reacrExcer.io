@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/reacrExcer/static/css/main.854d83b7.css",
+    "main.js": "/reacrExcer/static/js/main.88297241.js",
+    "index.html": "/reacrExcer/index.html",
+    "main.854d83b7.css.map": "/reacrExcer/static/css/main.854d83b7.css.map",
+    "main.88297241.js.map": "/reacrExcer/static/js/main.88297241.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.854d83b7.css",
+    "static/js/main.88297241.js"
+  ]
+}
