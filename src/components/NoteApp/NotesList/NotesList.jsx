@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import AddCard from '../NoteCard/AddCard/AddCard';
-import Note from '../NoteCard/NoteCrad';
-import NoteCrad from './../NoteCard/NoteCrad';
 import './style.css'
+import AddCard from './../AddCard/AddCard';
+import NoteCard from './../NoteCard/NoteCard';
+
 
 function NotesList(props) {
     const [text, setText] = useState();
@@ -10,8 +10,8 @@ function NotesList(props) {
 
     return (
         <div className='list-container'>
-            <NoteCrad />
-            <NoteCrad />
+            <NoteCard     />
+            <NoteCard />
             <AddCard textContent={textPass} />
 
         </div>

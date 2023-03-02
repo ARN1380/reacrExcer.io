@@ -1,5 +1,5 @@
 import React from 'react';
-import NotesList from '../NotesList/NotesList';
+import NotesList from './NotesList/NotesList';
 import './style.css'
 
 function NoteApp(props) {

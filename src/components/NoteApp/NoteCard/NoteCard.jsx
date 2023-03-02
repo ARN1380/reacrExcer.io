@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './style.css';
 
 
-function NoteCrad({ textContent }) {
+function NoteCard({ textContent }) {
     // const [text, setText] = useState('text text text');
     // const textPass = (text) => setText(text);
     return (
@@ -18,4 +18,4 @@ function NoteCrad({ textContent }) {
     );
 }
 
-export default NoteCrad;
+export default NoteCard;

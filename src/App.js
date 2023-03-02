@@ -3,7 +3,7 @@ import Counter from "./components/counter/Counter";
 import AdvancedCounter from "./components/AdvancedCounter/AdvancedCounter";
 import Products from './components/Product/Products';
 import PokemonsList from './components/Pokedex/PokemonsList/PokemonsList';
-import NoteApp from './components/Notes/NoteApp/NoteApp';
+import NoteApp from './components/NoteApp/NoteApp';
 import {
     BrowserRouter as Router,
     Route,
