@@ -1,0 +1,12 @@
+.list-container {
+    padding: 1rem;
+    background-color: #F0A04B;
+    border-radius: 1rem;
+    margin: .25rem;   
+    box-shadow: .25rem .25rem .5rem #3d3d3d;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    align-items: center;    
+}

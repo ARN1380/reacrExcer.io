@@ -10,7 +10,7 @@ function Products(props) {
     return (
         <div className='product-container'>
             {data.map((element)=>
-                <ProductCard title={element.title} imgSrc={element.image} />
+                <ProductCard title={element.title} imgSrc={element.image} />            
             )}
         </div>
     );
