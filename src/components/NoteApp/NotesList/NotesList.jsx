@@ -5,15 +5,20 @@ import NoteCard from './../NoteCard/NoteCard';
 
 
 function NotesList(props) {
-    const [text, setText] = useState();
-    const textPass = (text) => setText(text);
+    const [notesListArr, setNotesListArr] = useState([{ id: 0, textContent: "lorem ipsum" }, { id: 1, textContent: "lorem  2" }])
 
+    const addNote = (value) => {
+        setNotesListArr([...notesListArr, { id: notesListArr.length + 1, textContent: value }])
+
+    }
+    
     return (
         <div className='list-container'>
-            <NoteCard     />
-            <NoteCard />
-            <AddCard textContent={textPass} />
+            {notesListArr.map((item, index) =>                
+                <NoteCard id={item.id} textContent={item.textContent} />
+            )}
 
+            <AddCard addHandler={(value) => addNote(value)} />
         </div>
     );
 }

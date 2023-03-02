@@ -8,10 +8,15 @@ textarea {
 .notecard-container {
     background: rgba(44, 44, 44, 0.4);
     box-sizing: border-box;
-    width: 100%;
     padding: 1rem;
     border-radius: 1rem;
+    min-height: 15rem;
     
+}
+
+.text {
+    width: 100%;
+    min-height: 15rem;
 }
 
 .note-text {
@@ -45,4 +50,14 @@ textarea {
     font-weight: 600;
     background-color: #183A1D;
     color: #E9F8F9;
+}
+
+.edit-btn {
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: #E1EEDD;
+    color: #183A1D;
 }

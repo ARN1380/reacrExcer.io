@@ -1,18 +1,17 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import './style.css';
 
 
-function NoteCard({ textContent }) {
-    // const [text, setText] = useState('text text text');
-    // const textPass = (text) => setText(text);
+function NoteCard({ id,textContent }) {
+    const handleDelete = () => {
+
+    }
     return (
         <div className='notecard-container'>
-            <textarea name="" maxLength="200" className='note-text'>
-                
-            </textarea>
+            <textarea name="" maxLength="200" disabled className='note-text' value={textContent} />
             <div className="bottom-row">
-                <span className='charachter-remaining'>200 char</span>
-                <button className='delete-btn'>Delete</button>
+                <button className='edit-btn' >Edit</button>
+                <button className='delete-btn' onClick={handleDelete}>Delete</button>
             </div>
         </div>
     );
