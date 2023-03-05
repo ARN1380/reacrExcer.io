@@ -4,7 +4,7 @@ import axios from 'axios';
 import './style.css'
 
 
-const Pokemon_API_URL = "https://pokeapi.co/api/v2/pokemon?limit=50&offset=0"
+const Pokemon_API_URL = "https://pokeapi.co/api/v2/pokemon?limit=300&offset=0"
 
 function PokemonsList(props) {
   // let pokemons, imgSrc, name, type;

@@ -12,19 +12,26 @@ function NotesList(props) {
         setNotesListArr([...notesListArr, { id: id, textContent: textContent }])
     }
     const deleteNote = (deletedId) => {
-        
         console.log(`deletedId: ${deletedId}`);
         setNotesListArr(notesListArr.filter((obj => obj.id != deletedId)));
-        
-        
+
+    }
+    const editNote = (changedText, id) => {
+        notesListArr[notesListArr.findIndex(obj=>obj.id === id)].textContent = changedText;
+        // setNotesListArr(prevState => ({
+
+        // }))
     }
     return (
         <div className='list-container'>
-            {notesListArr.map((item, index) =>
-                <NoteCard id={item.id} textContent={item.textContent} isDeleted={(deletedId) => deleteNote(deletedId)} />
+            {notesListArr.map((item, index) => {
+
+                console.log(item);
+                return <NoteCard id={item.id} textContent={item.textContent} isDeleted={(deletedId) => deleteNote(deletedId)} editText={(changedText, id) => editNote(changedText, id)} />
+            }
             )}
 
-            <AddCard addHandler={(textContent,id) => addNote(id,textContent)} />
+            <AddCard addHandler={(textContent, id) => addNote(id, textContent)} />
         </div>
     );
 }

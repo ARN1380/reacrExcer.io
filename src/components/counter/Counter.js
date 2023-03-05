@@ -9,9 +9,7 @@ const Counter = () => {
     const view =(
     <div className="counter-box" onClick={ () => {
         setCount(count + 1);
-        console.log(count);
         }}>
-
         <p className="number">
             {count}
         </p>
