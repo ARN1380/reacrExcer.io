@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/reacrExcer/static/css/main.d67bc42b.css",
-    "main.js": "/reacrExcer/static/js/main.65ae3ff3.js",
-    "index.html": "/reacrExcer/index.html",
-    "main.d67bc42b.css.map": "/reacrExcer/static/css/main.d67bc42b.css.map",
-    "main.65ae3ff3.js.map": "/reacrExcer/static/js/main.65ae3ff3.js.map"
+    "main.css": "/reacrExcer.io/static/css/main.d67bc42b.css",
+    "main.js": "/reacrExcer.io/static/js/main.65ae3ff3.js",
+    "index.html": "/reacrExcer.io/index.html",
+    "main.d67bc42b.css.map": "/reacrExcer.io/static/css/main.d67bc42b.css.map",
+    "main.65ae3ff3.js.map": "/reacrExcer.io/static/js/main.65ae3ff3.js.map"
   },
   "entrypoints": [
     "static/css/main.d67bc42b.css",
