@@ -27,9 +27,7 @@ function NoteCard({ id, textContent, isDeleted, editText }) {
     }
     return (
         <div className='notecard-container'>
-            <textarea name="" maxLength="200" disabled={true} className='note-text' ref={textarea}>
-                {textContent}
-            </textarea>
+            <textarea name="" maxLength="200" disabled={true} className='note-text' ref={textarea} value={textContent} />
             <div className="bottom-row">
                 <button className='edit-btn' onClick={handleEdit} ref={editBtn}>{editBtnState}</button>
                 <button className='delete-btn' onClick={handleDelete} >Delete</button>

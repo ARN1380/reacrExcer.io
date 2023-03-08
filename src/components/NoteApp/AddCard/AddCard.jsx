@@ -17,8 +17,6 @@ function AddCard({ addHandler }) {
             addHandler(textvalue, id)
         } else {
             toast.warn("nothing in card!");
-
-            console.log("toast called");
         }
         textarea.current.value = "";
         setRemainingCharacter(200);
