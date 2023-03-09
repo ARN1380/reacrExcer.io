@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/reactExcer/static/css/main.d67bc42b.css",
-    "main.js": "/reactExcer/static/js/main.c276ca2a.js",
+    "main.js": "/reactExcer/static/js/main.54fc6fe2.js",
     "index.html": "/reactExcer/index.html",
     "main.d67bc42b.css.map": "/reactExcer/static/css/main.d67bc42b.css.map",
-    "main.c276ca2a.js.map": "/reactExcer/static/js/main.c276ca2a.js.map"
+    "main.54fc6fe2.js.map": "/reactExcer/static/js/main.54fc6fe2.js.map"
   },
   "entrypoints": [
     "static/css/main.d67bc42b.css",
-    "static/js/main.c276ca2a.js"
+    "static/js/main.54fc6fe2.js"
   ]
 }
